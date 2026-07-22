@@ -78,10 +78,10 @@ Możesz też uruchomić lokalnie (`npm install && npm run dev`) albo obejrzeć z
 | O firmie | [`02-about.jpg`](docs/screenshots/02-about.jpg) |
 | Galeria (masonry) | [`03-gallery-masonry.jpg`](docs/screenshots/03-gallery-masonry.jpg) |
 | Lightbox | [`04-lightbox.jpg`](docs/screenshots/04-lightbox.jpg) |
-| Mobile (menu) | [`05-mobile.jpg`](docs/screenshots/05-mobile.jpg) |
+| Mobile | [`05-mobile.jpg`](docs/screenshots/05-mobile.jpg) |
 
 <p align="center">
-  <img src="docs/screenshots/05-mobile.jpg" alt="Widok mobilny z otwartym menu" width="320" />
+  <img src="docs/screenshots/05-mobile.jpg" alt="Widok mobilny strony głównej" width="320" />
 </p>
 
 ## Stack technologiczny
