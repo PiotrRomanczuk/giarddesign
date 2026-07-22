@@ -1,0 +1,35 @@
+giarddesign — informacja o prawach i licencji
+==============================================
+
+Copyright (c) 2026 Piotr Romańczuk (kod źródłowy)
+
+Repozytorium powstało jako zadanie rekrutacyjne i jest udostępnione publicznie
+wyłącznie w celach demonstracyjnych — jako element portfolio autora oraz do oceny
+w procesie rekrutacyjnym. Nie jest to projekt open-source przeznaczony do
+swobodnej redystrybucji ani do komercyjnego wykorzystania.
+
+Zakres praw
+-----------
+
+1. KOD ŹRÓDŁOWY (pliki .vue, .ts, .css, konfiguracja) jest wynikiem własnej pracy
+   autora. Można go przeglądać i analizować w celach edukacyjnych oraz oceny
+   rekrutacyjnej. Wykorzystanie fragmentów kodu we własnych projektach wymaga
+   zachowania informacji o autorze; wykorzystanie komercyjne — zgody autora.
+
+2. PROJEKT GRAFICZNY (makieta, layout, kompozycja, identyfikacja wizualna marki
+   „giarddesign") należy w całości do adRespect.pl. Niniejsze repozytorium NIE
+   udziela żadnych praw do projektu graficznego. Nie wolno wykorzystywać layoutu
+   ani identyfikacji wizualnej bez zgody adRespect.pl.
+
+3. ZDJĘCIA pochodzą z serwisu Unsplash i zostały użyte poglądowo. Podlegają
+   licencji Unsplash (https://unsplash.com/license). Nie są własnością autora
+   kodu ani nie są objęte niniejszą informacją.
+
+BRAK GWARANCJI
+--------------
+
+Oprogramowanie udostępniane jest „TAK JAK JEST", bez jakiejkolwiek gwarancji,
+wyraźnej lub dorozumianej. Autor nie ponosi odpowiedzialności za jakiekolwiek
+szkody wynikające z użycia kodu.
+
+W razie pytań dotyczących wykorzystania: https://github.com/PiotrRomanczuk
