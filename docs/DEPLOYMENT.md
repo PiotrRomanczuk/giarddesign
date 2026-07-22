@@ -53,22 +53,21 @@ vercel --prod     # produkcja
   publish = "dist"
 ```
 
-### GitHub Pages
+### GitHub Pages (aktywny — automatyczny)
 
-Hostowanie w podkatalogu (`https://<user>.github.io/giarddesign/`) wymaga ustawienia `base` w Vite,
-inaczej ścieżki do zasobów będą błędne:
+Projekt jest wdrażany na GitHub Pages **automatycznie** przy każdym pushu na `master`:
 
-```ts
-// vite.config.ts
-export default defineConfig({
-  plugins: [vue()],
-  base: '/giarddesign/',   // nazwa repozytorium
-})
-```
+- **URL:** <https://piotrromanczuk.github.io/giarddesign/>
+- **Workflow:** [`.github/workflows/deploy.yml`](../.github/workflows/deploy.yml) — buduje (`npm run build`),
+  pakuje `dist/` jako artefakt Pages (`upload-pages-artifact`) i publikuje (`deploy-pages`).
+- **Źródło Pages:** *GitHub Actions* (Settings → Pages → Build and deployment → Source).
+- **`base`:** ustawione w `vite.config.ts` na `/giarddesign/` **tylko dla builda** (dev/preview pozostają
+  na `/`), więc ścieżki do zasobów rozwiązują się poprawnie w podkatalogu.
 
-Następnie zbuduj i opublikuj zawartość `dist/` na branchu `gh-pages` (np. akcją
-`peaceiris/actions-gh-pages` albo ręcznie). Dla hostowania na domenie głównej / własnej `base` można
-pominąć.
+Ręczne wyzwolenie: zakładka *Actions* → *Deploy to GitHub Pages* → *Run workflow* (`workflow_dispatch`).
+
+> Przy zmianie nazwy repozytorium lub hostowaniu na domenie własnej — zaktualizuj `base`
+> (dla domeny głównej: `base: '/'`).
 
 ### Dowolny hosting statyczny (S3, Cloudflare Pages, nginx…)
 

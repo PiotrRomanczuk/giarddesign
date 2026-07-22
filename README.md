@@ -6,6 +6,9 @@
 
 Rekonstrukcja projektu graficznego (Figma) wykonana jako zadanie rekrutacyjne dla [adRespect.pl](https://adrespect.pl).
 
+**🌐 Demo na żywo: [piotrromanczuk.github.io/giarddesign](https://piotrromanczuk.github.io/giarddesign/)**
+
+[![Deploy](https://github.com/PiotrRomanczuk/giarddesign/actions/workflows/deploy.yml/badge.svg)](https://github.com/PiotrRomanczuk/giarddesign/actions/workflows/deploy.yml)
 [![CI](https://github.com/PiotrRomanczuk/giarddesign/actions/workflows/ci.yml/badge.svg)](https://github.com/PiotrRomanczuk/giarddesign/actions/workflows/ci.yml)
 ![Vue](https://img.shields.io/badge/Vue-3.5-42b883?logo=vuedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178c6?logo=typescript&logoColor=white)
@@ -63,7 +66,10 @@ Nacisk położono na:
 
 ## Demo i zrzuty ekranu
 
-Uruchom lokalnie (`npm install && npm run dev`) albo obejrzyj zrzuty ekranu w
+**Wersja live:** <https://piotrromanczuk.github.io/giarddesign/> (wdrażana automatycznie z brancha
+`master` przez GitHub Actions → GitHub Pages).
+
+Możesz też uruchomić lokalnie (`npm install && npm run dev`) albo obejrzeć zrzuty ekranu w
 [`docs/screenshots/`](docs/screenshots).
 
 | Widok | Podgląd |
